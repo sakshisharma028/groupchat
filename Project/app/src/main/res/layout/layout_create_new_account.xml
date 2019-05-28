@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="30dp"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:id="@+id/tvSignUpHeading"
+             android:layout_centerHorizontal="true"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/imgViewSignUp"
+            android:src="@drawable/ic_default_user_dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/tvSignUpHeading"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etUsername"
+            android:layout_below="@id/imgViewSignUp"
+            android:layout_margin="20dp"
+            android:hint="Username"
+            android:orientation="horizontal">
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Gender"
+            android:textSize="20dp"
+            android:id="@+id/tvGender"
+            android:layout_below="@id/etUsername"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="20dp"
+            android:layout_below="@id/tvGender"
+            android:id="@+id/radioBtnGender"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Male"/>
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Female"/>
+        </RadioGroup>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etEmailSignUp"
+            android:layout_margin="20dp"
+            android:layout_below="@id/radioBtnGender"
+            android:hint="Email"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etPasswordSignUp"
+            android:layout_margin="20dp"
+            android:layout_below="@id/etEmailSignUp"
+            android:inputType="textPassword"
+            android:hint="Password"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etConfirmPasswordSignUp"
+            android:layout_margin="20dp"
+            android:layout_below="@id/etPasswordSignUp"
+            android:inputType="textPassword"
+            android:hint="Confirm Password"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:id="@+id/btnSave"
+            android:text="SIGN UP"
+            android:layout_below="@id/etConfirmPasswordSignUp"/>
+
+    </RelativeLayout>
+
+</ScrollView>

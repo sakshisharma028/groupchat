@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "576823001336",
+    "firebase_url": "https://project-aae2d.firebaseio.com",
+    "project_id": "project-aae2d",
+    "storage_bucket": "project-aae2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576823001336:android:fc6cc039c48eee1f",
+        "android_client_info": {
+          "package_name": "com.example.lavisha.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576823001336-jq8qf7osut4qbfu8ngpqtvcru1abhb84.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lavisha.project",
+            "certificate_hash": "fe2fda9ceb83a8e622f9b5c40d3769d8a180defb"
+          }
+        },
+        {
+          "client_id": "576823001336-o936shmgueljijib3ir4k12rflg2at6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd46MFTsH7qc8mgTgLH-_hlFMyTu7Q9GM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576823001336-o936shmgueljijib3ir4k12rflg2at6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
