@@ -1,6 +1,9 @@
 package com.example.lavisha.project;
 
 public class User {
+	String s="2";
+	int=2;
+	
     public User() {
     }
 
